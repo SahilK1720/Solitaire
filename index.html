@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solitaire</title>
+    <link rel="stylesheet" href="./startPage/start.css">
+</head>
+<body>
+    <iframe src="../assets/audio/solitaire.mp3" allow="autoplay" style="display: none;"></iframe>
+    <div class="container">
+        <div class="logo">
+            <img src="../assets/images/logo.png" alt="logo">
+        </div>
+        <div class="form">
+            <form id="myForm">
+                <label class="label" for="fname">Username:</label><br>
+                <input class="input" type="text" id="fname" name="fname" placeholder="Enter your username" required><br>
+                <label class="label" for="lname">Nickname:</label><br>
+                <input class="input" type="text" id="nname" name="lname" placeholder="Enter your nickname" required><br><br>
+              </form> 
+        </div>
+
+        <div id="play" onclick="submit()">
+            <button>Proceed</button>
+        </div>
+    </div>
+    <script src="./startPage/start.js"></script>
+</body>
+</html>
